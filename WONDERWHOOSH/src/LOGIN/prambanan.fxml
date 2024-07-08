@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LOGIN.FXMLWisataController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="811.0" prefWidth="1442.0" style="-fx-background-color: #F2E5D5;">
+         <children>
+            <Pane layoutX="146.0" layoutY="208.0" prefHeight="512.0" prefWidth="1179.0" style="-fx-background-color: #048abf; -fx-background-radius: 10;">
+               <children>
+                  <TextArea layoutX="64.0" layoutY="82.0" prefHeight="381.0" prefWidth="1055.0" text="Candi Prambanan adalah kompleks candi Hindu terbesar di Indonesia, yang terletak di Yogyakarta. Dibangun pada abad ke-9, candi ini didedikasikan untuk &#10;Trimurti: Brahma (Dewa Pencipta), Wisnu (Dewa Pemelihara), dan Siwa (Dewa Penghancur). &#10;Prambanan terkenal dengan arsitektur megahnya dan diakui sebagai Situs Warisan Dunia UNESCO. Kompleks ini memiliki banyak candi kecil &#10;di sekitarnya dan sering menjadi lokasi acara budaya dan keagamaan. Candi Prambanan merupakan situs Warisan Dunia UNESCO dan merupakan salah satu&#10;destinasi wisata paling populer di Indonesia.&#10;&#10;Harga Tiket:&#10;Dewasa Domestik: sekitar Rp50.000&#10;Anak-anak Domestik: sekitar Rp25.000&#10;Dewasa Asing: sekitar USD 25&#10;Anak-anak Asing: sekitar USD 15&#10;Alamat:&#10;Jalan Raya Solo - Yogyakarta No.16, Kranggan, Bokoharjo, Prambanan, Sleman, Yogyakarta, Indonesia.&#10;Jam Buka:&#10;Setiap hari, dari pukul 06:00 hingga 17:00 WIB">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextArea>
+                  <Text fill="WHITE" layoutX="64.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Candi Prambanan">
+                     <font>
+                        <Font name="Arial Bold Italic" size="20.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Text fill="WHITE" layoutX="456.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wisata Yogyakarta">
+               <font>
+                  <Font name="Arial Bold Italic" size="60.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="990.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/Free_Vector___Trip_concept_illustration-removebg-preview%20(1).png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btn_BackWisata" layoutX="24.0" layoutY="17.0" mnemonicParsing="false" onAction="#switchToBackWisata" prefHeight="42.0" prefWidth="42.0" style="-fx-background-color: #048abf; -fx-background-radius: 50;">
+               <graphic>
+                  <ImageView fitHeight="29.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/back(1).png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

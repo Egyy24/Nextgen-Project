@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #eeeeee;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LOGIN.FXMLBerandaController">
+   <children>
+      <Label layoutX="51.0" layoutY="97.0" text="Wanderwhoosh" textFill="#048abf">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="GambarLogo" fitHeight="94.0" fitWidth="103.0" layoutX="499.0" layoutY="-12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/2idkfF6xHmUoaUqRoC4JgvUdoIT_preview_rev_1.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="beranda_signUp" layoutX="47.0" layoutY="204.0" mnemonicParsing="false" onAction="#switchToRegisterPage" prefHeight="26.0" prefWidth="90.0" style="-fx-background-color: #048abf; -fx-background-radius: 50;" text="Sign Up" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Circle fill="#048abf" layoutX="523.0" layoutY="200.0" radius="100.0" stroke="BLACK" strokeMiterLimit="0.0" strokeWidth="0.0" />
+      <Circle fill="#048abf" layoutX="401.0" layoutY="320.0" radius="100.0" stroke="BLACK" strokeMiterLimit="0.0" strokeWidth="0.0" />
+      <Label layoutX="51.0" layoutY="143.0" prefHeight="30.0" prefWidth="320.0" text="penyedia informasi tentang tempat " textFill="#00000085">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="166.0" text=" wisata info kuliner dan penyumbang dana" textFill="#00000085">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Circle fill="#048abf" layoutX="543.0" layoutY="340.0" radius="100.0" stroke="BLACK" strokeMiterLimit="0.0" strokeWidth="0.0" />
+      <ImageView fx:id="Gambar" fitHeight="340.0" fitWidth="412.0" layoutX="263.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/original-bcd3036e3745d8c3b476029_preview_rev_1.png" />
+         </image>
+      </ImageView>
+      <Hyperlink fx:id="beranda_signIn" layoutX="50.0" layoutY="240.0" onAction="#switchToLoginPage" text="have account? Sign In" />
+   </children>
+</AnchorPane>

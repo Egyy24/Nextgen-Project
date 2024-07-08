@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="860.0" prefWidth="1522.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LOGIN.KulinerController">
+   <bottom>
+      <ScrollPane prefHeight="819.0" prefWidth="1522.0" vvalue="1.0" BorderPane.alignment="CENTER">
+         <content>
+            <AnchorPane prefHeight="910.0" prefWidth="1522.0" style="-fx-background-color: #eeeeee;">
+               <children>
+                  <Pane layoutX="238.0" layoutY="63.0" prefHeight="168.0" prefWidth="1046.0" style="-fx-background-color: #048abf; -fx-background-radius: 10;">
+                     <children>
+                        <AnchorPane layoutX="14.0" layoutY="10.0" prefHeight="148.0" prefWidth="237.0" style="-fx-background-color: #ffffff; -fx-background-radius: 10;">
+                           <children>
+                              <ImageView fitHeight="118.0" fitWidth="209.0" layoutX="14.0" layoutY="15.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../Image/gudeg.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                        <Text fill="WHITE" layoutX="298.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nama Makanan:">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="298.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gudeg adalah makanan khas Yogyakarta dan Jawa Tengah dari nangka muda yang dimasak dengan santan dan bumbu. Proses memasaknya lama hingga bumbu meresap. Disajikan dengan nasi, ayam opor, telur, tahu, tempe, dan sambal krecek. Rasanya manis dan gurih." wrappingWidth="726.2355346679688">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="12.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="295.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rekomendasi Tempat:">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="295.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gudeg Yu Djum">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="12.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="501.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Harga:">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="501.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RP.50.000-100.000">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="12.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="661.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alamat:">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="661.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gudeg Yu Djum Pusat (Jalan Adisucipto)Jl. Laksda Adisucipto Km. 8,7(Samping Hotel Sheraton)YogyakartaBuka: 07:00 – 21:00 WIB" wrappingWidth="306.4609375">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="12.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="238.0" layoutY="274.0" prefHeight="168.0" prefWidth="1046.0" style="-fx-background-color: #048abf; -fx-background-radius: 10;">
+                     <children>
+                        <AnchorPane layoutX="14.0" layoutY="10.0" prefHeight="148.0" prefWidth="237.0" style="-fx-background-color: #ffffff; -fx-background-radius: 10;">
+                           <children>
+                              <ImageView fitHeight="118.0" fitWidth="209.0" layoutX="14.0" layoutY="15.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../Image/gatot.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                        <Text fill="WHITE" layoutX="297.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nama Makanan:">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="297.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gatot dan tiwul adalah makanan tradisional Jawa Tengah dan Yogyakarta dari singkong kering (gaplek).1. Gatot: Singkong direndam, direbus dan disajikan dengan kelapa parut. Rasanya manis gurih.2. Tiwul: Tepung gaplek dikukus dan disajikan sebagai pengganti nasi. Rasanya sedikit manis.Keduanya digunakan sebagai alternatif nasi." wrappingWidth="721.1211547851562">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="12.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="297.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rekomendasi Tempat:">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="297.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="703.0199584960938">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="12.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="297.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tiwul Ayu Mbok Sum">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="12.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="501.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rekomendasi Tempat:">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="668.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alamat:">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="501.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RP.10.000-30.000">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="12.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="668.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="tiwul ayu mbok sumAlamat: Jalan Mangunan KM.4.5, RT.15, Mangunan, Dlingo, Cempluk, Mangunan, Kec. Dlingo, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55783" wrappingWidth="363.525390625">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="12.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="238.0" layoutY="482.0" prefHeight="168.0" prefWidth="1046.0" style="-fx-background-color: #048abf; -fx-background-radius: 10;">
+                     <children>
+                        <AnchorPane layoutX="14.0" layoutY="10.0" prefHeight="148.0" prefWidth="237.0" style="-fx-background-color: #ffffff; -fx-background-radius: 10;">
+                           <children>
+                              <ImageView fitHeight="118.0" fitWidth="209.0" layoutX="14.0" layoutY="15.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../Image/sate.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                        <Text fill="WHITE" layoutX="298.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nama Makanan:">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="298.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sate klatak adalah sate khas Bantul, Yogyakarta, yang menggunakandaging kambing muda ditusuk dengan jeruji besi. Daging hanya dibumbuigaram dan dipanggang di atas arang. Disajikan dengan kuah gulai, nasi atau lontong, dan lalapan." wrappingWidth="685.9421997070312">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="12.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="298.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rekomendasi Tempat:">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="298.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sate Klatak Pak Pong">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="12.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="512.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Harga:">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="512.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RP.25.000-50.000">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="12.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="674.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alamat:">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="674.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="sate klatak pak pongAlamat: Jl. Sultan Agung No.18, Jejeran II, Wonokromo, Kec. Pleret, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55791" wrappingWidth="267.830078125">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="12.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="238.0" layoutY="692.0" prefHeight="168.0" prefWidth="1046.0" style="-fx-background-color: #048abf; -fx-background-radius: 10;">
+                     <children>
+                        <AnchorPane layoutX="14.0" layoutY="10.0" prefHeight="148.0" prefWidth="237.0" style="-fx-background-color: #ffffff; -fx-background-radius: 10;">
+                           <children>
+                              <ImageView fitHeight="118.0" fitWidth="209.0" layoutX="14.0" layoutY="15.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../Image/oseng%20mercon.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                        <Text fill="WHITE" layoutX="303.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nama Makanan:">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="303.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Oseng-oseng mercon khas Yogyakarta adalah hidangan dengan daging sapi atau ayam yang digoreng dengan minyak, dicampur dengan banyak cabai merah dan cabai rawit. Kekhasannya terletak pada tingkat kepedasannya yang sangat tinggi, yang berasa meledak-ledak di lidah. Biasanya disajikan dengan nasi hangat di warung-warung makan atau restoran di Yogyakarta." wrappingWidth="690.1929321289062">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="12.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="303.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rekomendasi Tempat:">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="303.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Oseng Mercon Bu Narti">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="12.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="512.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Harga:">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="512.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RP.25.000-50.000">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="12.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="679.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alamat:">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="679.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="oseng mercon bu nartiAlamat: Jl. KH. Ahmad Dahlan No.107, Notoprajan, Ngampilan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55262" wrappingWidth="358.8125">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="12.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </bottom>
+   <top>
+      <AnchorPane prefHeight="42.0" prefWidth="1522.0" style="-fx-background-color: #048abf;" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="WHITE" layoutX="602.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KULINER YOGYAKARTA">
+               <font>
+                  <Font name="Arial Black" size="24.0" />
+               </font>
+            </Text>
+            <Button fx:id="btn_backhome" layoutX="14.0" layoutY="1.0" mnemonicParsing="false" onAction="#switchTobackhome" style="-fx-background-color: #048abf;">
+               <graphic>
+                  <ImageView fx:id="bt" fitHeight="30.0" fitWidth="28.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../Image/back(1).png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>

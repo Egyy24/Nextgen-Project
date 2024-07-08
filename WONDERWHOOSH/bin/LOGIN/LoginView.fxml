@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #80A6ED;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="25.0" layoutY="26.0" text="Welcome" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="ImageView" fitHeight="209.0" fitWidth="203.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/Screenshot%202024-06-18%20145858_preview_rev_1.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="400.0" prefWidth="415.0" style="-fx-background-color: #F2E5D5;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="ImageView" fitHeight="59.0" fitWidth="56.0" layoutX="165.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/arcticons--app-lock.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="username" layoutX="37.0" layoutY="122.0" text="Username" />
+            <PasswordField fx:id="passwordTextFaild" layoutX="38.0" layoutY="209.0" prefHeight="26.0" prefWidth="316.0" />
+            <TextField fx:id="usernameTextFaild" layoutX="39.0" layoutY="140.0" prefHeight="26.0" prefWidth="315.0" />
+            <Label fx:id="Password" layoutX="38.0" layoutY="191.0" text="Password" />
+            <Button fx:id="masukButton" layoutX="166.0" layoutY="259.0" mnemonicParsing="false" style="-fx-background-color: #80A6ED;" text="Masuk" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>

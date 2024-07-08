@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="753.0" style="-fx-background-color: #F2E5D5;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LOGIN.FXMLWisataController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="860.0" prefWidth="1550.0" style="-fx-background-color: #F2E5D5;">
+         <children>
+            <ToggleButton layoutX="113.0" layoutY="227.0" mnemonicParsing="false" prefHeight="184.0" prefWidth="224.0" style="-fx-background-color: #048abf; -fx-background-radius: 10;" />
+            <Pane layoutX="113.0" layoutY="225.0" prefHeight="157.0" prefWidth="221.0" style="-fx-background-radius: 10;">
+               <children>
+                  <Text fill="WHITE" layoutX="58.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JL. Malioboro" textAlignment="CENTER" wrappingWidth="109.6220703125">
+                     <font>
+                        <Font name="Cambria Math" size="15.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="142.0" fitWidth="204.0" layoutX="11.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/maliboro.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <ToggleButton layoutX="670.0" layoutY="226.0" mnemonicParsing="false" prefHeight="184.0" prefWidth="224.0" style="-fx-background-color: #048abf; -fx-background-radius: 10;" />
+            <Pane layoutX="670.0" layoutY="225.0" prefHeight="185.0" prefWidth="225.0" style="-fx-background-radius: 10;">
+               <children>
+                  <Text fill="WHITE" layoutX="57.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wisata Kaliurang" textAlignment="CENTER">
+                     <font>
+                        <Font name="Cambria Math" size="15.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="142.0" fitWidth="204.0" layoutX="10.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/kaliurang.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <ToggleButton layoutX="945.0" layoutY="225.0" mnemonicParsing="false" prefHeight="184.0" prefWidth="224.0" style="-fx-background-color: #048abf; -fx-background-radius: 10;" />
+            <Pane layoutX="945.0" layoutY="225.0" prefHeight="185.0" prefWidth="225.0" style="-fx-background-radius: 10;">
+               <children>
+                  <Text fill="WHITE" layoutX="60.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Goa Pindul Jogja" textAlignment="CENTER">
+                     <font>
+                        <Font name="Cambria Math" size="15.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="142.0" fitWidth="204.0" layoutX="10.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/goa%20(2).jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <ToggleButton fx:id="btn_obelix" layoutX="114.0" layoutY="535.0" mnemonicParsing="false" prefHeight="184.0" prefWidth="224.0" style="-fx-background-color: #048abf; -fx-background-radius: 10;" />
+            <Pane layoutX="113.0" layoutY="533.0" prefHeight="158.0" prefWidth="222.0" style="-fx-background-radius: 10;">
+               <children>
+                  <ImageView fitHeight="142.0" fitWidth="204.0" layoutX="11.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/obelix.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="60.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Obelix Sea View" textAlignment="CENTER">
+                     <font>
+                        <Font name="Cambria Math" size="15.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <ToggleButton layoutX="392.0" layoutY="537.0" mnemonicParsing="false" prefHeight="184.0" prefWidth="224.0" style="-fx-background-color: #048abf; -fx-background-radius: 10;" />
+            <Pane layoutX="392.0" layoutY="538.0" prefHeight="185.0" prefWidth="225.0" style="-fx-background-radius: 10;">
+               <children>
+                  <ImageView fitHeight="142.0" fitWidth="204.0" layoutX="11.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/heha.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="60.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Heha Sky View" textAlignment="CENTER">
+                     <font>
+                        <Font name="Cambria Math" size="15.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <ToggleButton layoutX="663.0" layoutY="535.0" mnemonicParsing="false" prefHeight="184.0" prefWidth="224.0" style="-fx-background-color: #048abf; -fx-background-radius: 10;" />
+            <Pane layoutX="663.0" layoutY="534.0" prefHeight="185.0" prefWidth="225.0" style="-fx-background-radius: 10;">
+               <children>
+                  <ImageView fitHeight="142.0" fitWidth="204.0" layoutX="11.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/museu%20var.jpeg" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="60.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Museum Vredeburg" textAlignment="CENTER">
+                     <font>
+                        <Font name="Cambria Math" size="15.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <ToggleButton layoutX="945.0" layoutY="534.0" mnemonicParsing="false" prefHeight="184.0" prefWidth="224.0" style="-fx-background-color: #048abf; -fx-background-radius: 10;" />
+            <Pane layoutX="945.0" layoutY="534.0" prefHeight="185.0" prefWidth="225.0" style="-fx-background-radius: 10;">
+               <children>
+                  <ImageView fitHeight="142.0" fitWidth="204.0" layoutX="11.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/museum-ullen-sentalu.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="41.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Museum Ullen Sentalu" textAlignment="CENTER">
+                     <font>
+                        <Font name="Cambria Math" size="15.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Text fill="WHITE" layoutX="497.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wisata Yogya" textAlignment="CENTER" wrappingWidth="465.0732421875">
+               <font>
+                  <Font name="Arial Bold Italic" size="60.0" />
+               </font>
+               <stroke>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.8026315569877625" green="0.5796783566474915" blue="0.5796783566474915" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </stroke>
+            </Text>
+            <ToggleButton fx:id="candi_prmbn" layoutX="392.0" layoutY="226.0" mnemonicParsing="false" onAction="#switchToPrambanan" prefHeight="184.0" prefWidth="224.0" style="-fx-background-color: #048abf; -fx-background-radius: 10;" />
+            <Pane layoutX="392.0" layoutY="226.0" prefHeight="157.0" prefWidth="221.0" style="-fx-background-radius: 10;">
+               <children>
+                  <ImageView fitHeight="142.0" fitWidth="204.0" layoutX="11.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/Prambanan%20Temple%20-%20Yogyakarta%20(Indonesia).jpeg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <ToggleButton layoutX="1229.0" layoutY="225.0" mnemonicParsing="false" prefHeight="184.0" prefWidth="224.0" style="-fx-background-color: #048abf; -fx-background-radius: 10;" />
+            <Pane layoutX="1229.0" layoutY="225.0" prefHeight="185.0" prefWidth="225.0" style="-fx-background-radius: 10;">
+               <children>
+                  <Text fill="WHITE" layoutX="74.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Taman Sari " textAlignment="CENTER">
+                     <font>
+                        <Font name="Cambria Math" size="15.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="142.0" fitWidth="204.0" layoutX="10.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/taman%20sari.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <ToggleButton layoutX="1229.0" layoutY="536.0" mnemonicParsing="false" prefHeight="184.0" prefWidth="224.0" style="-fx-background-color: #048abf; -fx-background-radius: 10;" />
+            <Pane layoutX="1229.0" layoutY="537.0" prefHeight="185.0" prefWidth="225.0" style="-fx-background-radius: 10;">
+               <children>
+                  <ImageView fitHeight="142.0" fitWidth="204.0" layoutX="11.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../foto/parangtritis.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="53.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pantai Parangtritis" textAlignment="CENTER">
+                     <font>
+                        <Font name="Cambria Math" size="15.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="919.0" layoutY="-18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/Free_Vector___Trip_concept_illustration-removebg-preview%20(1).png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btn_back" layoutX="24.0" layoutY="17.0" mnemonicParsing="false" onAction="#switchToBack" prefHeight="51.0" prefWidth="49.0" style="-fx-background-color: #048abf; -fx-background-radius: 50;">
+               <graphic>
+                  <ImageView fitHeight="29.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/back(1).png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Text fill="WHITE" layoutX="445.0" layoutY="395.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Candi Prambanan" textAlignment="CENTER">
+               <font>
+                  <Font name="Cambria Math" size="15.0" />
+               </font>
+            </Text>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>
